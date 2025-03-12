@@ -26,13 +26,13 @@ This repository provides a simple PHP authentication system using the [Telegram 
 
 - `config.php`: Configuration file to set your bot token and other settings.
 - `login.php`: Contains the Telegram login verification logic.
-- `admin.php`: Page that users will be redirected to after a successful login.
+- `welcome.php`: Page that users will be redirected to after a successful login.
 - `error.php`: Error page for login or authentication failures.
 
 ## How to Use
 
 1. Embed the Telegram Login widget in your website using the code provided in `login.php`.
-2. When a user clicks the widget and successfully authenticates via Telegram, they will be redirected to the `admin.php` page.
+2. When a user clicks the widget and successfully authenticates via Telegram, they will be redirected to the `welcome.php` page.
 3. Users who are not authorized will be shown an error page (`error.php`).
 
 ## Security
